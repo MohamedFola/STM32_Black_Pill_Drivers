@@ -20,7 +20,7 @@ typedef float                     f32;
 typedef double                    f64;
 
 
-#define NULL                      0
+#define NULL                      ( void* )0
 
 #define OK                        1
 #define NOK   				      2

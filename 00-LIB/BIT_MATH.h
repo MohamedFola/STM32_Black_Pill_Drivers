@@ -39,7 +39,7 @@
 
 #define SET_BIT(Register, Bit)                           ((Register) |= MASK(Bit))
 #define CLR_BIT(Register, Bit)                           ((Register) &= ~MASK(Bit))
-#define TOGGLE_BIT(Register, Bit)                        ((Register) ^= MASK(Bit))
+#define TOG_BIT(Register, Bit)                           ((Register) ^= MASK(Bit))
 #define GET_BIT(Register, Bit)                           (((Register)>>(Bit)) & 0x01)
 
 #define DIGITAL_SET_OR_CLEAR(Register, Bit, Function)    (Register) = ((Register) | MASK(Bit)) & ~(((Function) == 0)<<(Bit))							    
