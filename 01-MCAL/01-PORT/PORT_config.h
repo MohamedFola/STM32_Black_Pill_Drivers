@@ -1,9 +1,9 @@
 /*************************************************************/
 /*************************************************************/
-/************ Author  : Mohamed Hassan Hassan     ************/
-/************ Layer   : MCAL                      ************/
-/************ Version : 1.00                      ************/
-/************ SWC     : PORT                      ************/
+/*            Author  : Mohamed Hassan Hassan                */
+/*            Layer   : MCAL                                 */
+/*            Version : 1.00                                 */
+/*            SWC     : PORT                                 */
 /*************************************************************/
 /*************************************************************/
 
@@ -36,8 +36,8 @@
 #define GPIOB_PIN1_MODE                       General_Purpose_Output_Mode
 #define GPIOB_PIN2_MODE                       General_Purpose_Output_Mode
 #define GPIOB_PIN5_MODE                       General_Purpose_Output_Mode
-#define GPIOB_PIN6_MODE                       General_Purpose_Output_Mode
-#define GPIOB_PIN7_MODE                       General_Purpose_Output_Mode
+#define GPIOB_PIN6_MODE                       Alternate_Function_Mode
+#define GPIOB_PIN7_MODE                       Alternate_Function_Mode
 #define GPIOB_PIN8_MODE                       General_Purpose_Output_Mode
 #define GPIOB_PIN9_MODE                       General_Purpose_Output_Mode
 #define GPIOB_PIN10_MODE                      General_Purpose_Output_Mode
@@ -48,8 +48,8 @@
 #define GPIOB_PIN15_MODE                      General_Purpose_Output_Mode
 
 #define GPIOC_PIN13_MODE                      General_Purpose_Output_Mode
-#define GPIOC_PIN14_MODE                      Input_Mode
-#define GPIOC_PIN15_MODE                      Input_Mode
+#define GPIOC_PIN14_MODE                      General_Purpose_Output_Mode
+#define GPIOC_PIN15_MODE                      General_Purpose_Output_Mode
 
 
 /*
@@ -76,8 +76,8 @@
 #define GPIOB_PIN1_Output_Type                Output_Push_Pull
 #define GPIOB_PIN2_Output_Type                Output_Push_Pull
 #define GPIOB_PIN5_Output_Type                Output_Push_Pull
-#define GPIOB_PIN6_Output_Type                Output_Push_Pull
-#define GPIOB_PIN7_Output_Type                Output_Push_Pull
+#define GPIOB_PIN6_Output_Type                Output_Open_Drain
+#define GPIOB_PIN7_Output_Type                Output_Open_Drain
 #define GPIOB_PIN8_Output_Type                Output_Push_Pull
 #define GPIOB_PIN9_Output_Type                Output_Push_Pull
 #define GPIOB_PIN10_Output_Type               Output_Push_Pull
@@ -159,8 +159,8 @@
 #define GPIOB_PIN1_PU_PD                      No_Pull_Up_or_Down
 #define GPIOB_PIN2_PU_PD                      No_Pull_Up_or_Down
 #define GPIOB_PIN5_PU_PD                      No_Pull_Up_or_Down
-#define GPIOB_PIN6_PU_PD                      No_Pull_Up_or_Down
-#define GPIOB_PIN7_PU_PD                      No_Pull_Up_or_Down
+#define GPIOB_PIN6_PU_PD                      Pull_Up
+#define GPIOB_PIN7_PU_PD                      Pull_Up
 #define GPIOB_PIN8_PU_PD                      No_Pull_Up_or_Down
 #define GPIOB_PIN9_PU_PD                      No_Pull_Up_or_Down
 #define GPIOB_PIN10_PU_PD                     No_Pull_Up_or_Down
@@ -170,9 +170,9 @@
 #define GPIOB_PIN14_PU_PD	                  No_Pull_Up_or_Down
 #define GPIOB_PIN15_PU_PD                     No_Pull_Up_or_Down
 
-#define GPIOC_PIN13_PU_PD                     Pull_Up
-#define GPIOC_PIN14_PU_PD                     Pull_Up
-#define GPIOC_PIN15_PU_PD                     Pull_Up
+#define GPIOC_PIN13_PU_PD                     No_Pull_Up_or_Down
+#define GPIOC_PIN14_PU_PD                     No_Pull_Up_or_Down
+#define GPIOC_PIN15_PU_PD                     No_Pull_Up_or_Down
 
 
 
@@ -205,7 +205,7 @@
 #define GPIOA_PIN5_AF		                  AF11
 #define GPIOA_PIN6_AF		                  AF11
 #define GPIOA_PIN7_AF		                  AF11  
-#define GPIOA_PIN8_AF		                  AF11 
+#define GPIOA_PIN8_AF		                  AF11
 #define GPIOA_PIN9_AF		                  AF11 
 #define GPIOA_PIN10_AF	                      AF11
 #define GPIOA_PIN11_AF	                      AF11
@@ -216,8 +216,8 @@
 #define GPIOB_PIN1_AF                         AF11
 #define GPIOB_PIN2_AF                         AF11
 #define GPIOB_PIN5_AF                         AF11
-#define GPIOB_PIN6_AF                         AF11
-#define GPIOB_PIN7_AF                         AF11
+#define GPIOB_PIN6_AF                         AF4
+#define GPIOB_PIN7_AF                         AF4
 #define GPIOB_PIN8_AF                         AF11
 #define GPIOB_PIN9_AF                         AF11
 #define GPIOB_PIN10_AF                        AF11

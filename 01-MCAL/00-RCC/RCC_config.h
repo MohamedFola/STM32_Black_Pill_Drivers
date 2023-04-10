@@ -67,7 +67,7 @@
 #define RCC_PLLN                       RCC_PLLN_DEFAULT
 
 /*****************************************************************
- *	PLLP: Main PLL (PLL) division factor for main system clock   *                 *
+ *	PLLP: Main PLL (PLL) division factor for main system clock   *
  *	PLLP Options:                                                *
  *		1) PLLP_2                                                *
  *		2) PLLP_4                                                *
@@ -123,7 +123,7 @@
  * 		9  --> AHB_PRE_512         *
  * 		10 --> AHB_Default         *
  ***********************************/
-#define RCC_AHB_PERSCALER               AHB_Default
+#define RCC_AHB_PERSCALER               AHB_PRE_2
 
 
 /********************************

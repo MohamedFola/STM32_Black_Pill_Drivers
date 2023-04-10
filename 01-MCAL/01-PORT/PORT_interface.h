@@ -1,9 +1,9 @@
 /*************************************************************/
 /*************************************************************/
-/************ Author  : Mohamed Hassan Hassan     ************/
-/************ Layer   : MCAL                      ************/
-/************ Version : 1.00                      ************/
-/************ SWC     : PORT                      ************/
+/*            Author  : Mohamed Hassan Hassan                */
+/*            Layer   : MCAL                                 */
+/*            Version : 1.00                                 */
+/*            SWC     : PORT                                 */
 /*************************************************************/
 /*************************************************************
 
@@ -42,9 +42,9 @@
  * Name        : PORT_voidInit                     *
  * Return type : void                              *
  * Arguments   : void                              *
- * description : Initialize Ports configurations   *
+ * Description : Initialize Ports configurations   *
  **************************************************/
-void PORT_voidInit( void );
+void PORT_voidInit ( void );
 
 
 #endif

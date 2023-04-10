@@ -56,7 +56,7 @@ typedef enum
  * Arguments   : void                       *
  * description : Enables System Clock       *
  *******************************************/
-void RCC_voidSystemClockEnable(void);
+void RCC_voidSystemClockEnable ( void );
 
 
 /************************************************************************
@@ -65,7 +65,7 @@ void RCC_voidSystemClockEnable(void);
  * Arguments   : Copy_u8PerphiralName --> u8                            *
  * description : Enables Clock for a certain Peripheral                 *
  ***********************************************************************/
-void RCC_voidPeripheralClockEnable(u8 Copy_PeripheralName);
+void RCC_voidPeripheralClockEnable ( u8 Copy_PeripheralName );
 
 
 /************************************************************************
@@ -74,7 +74,7 @@ void RCC_voidPeripheralClockEnable(u8 Copy_PeripheralName);
  * Arguments   : Copy_u8PerphiralName                                   *
  * description : Disables Clock for a certain Peripheral                *
  ***********************************************************************/
-void RCC_voidPeripheralClockDisable(u8 Copy_PeripheralName);
+void RCC_voidPeripheralClockDisable ( u8 Copy_PeripheralName );
 
 
 /************************************************************************
@@ -83,7 +83,7 @@ void RCC_voidPeripheralClockDisable(u8 Copy_PeripheralName);
  * Arguments   : Copy_u8PerphiralName                                   *
  * description : Resets a certain Peripheral                            *
  ***********************************************************************/
-void RCC_voidPeripheralReset(u8 Copy_PeripheralName);
+void RCC_voidPeripheralReset ( u8 Copy_PeripheralName );
 
 
 #endif /* RCC_INTERFACE_H_ */
